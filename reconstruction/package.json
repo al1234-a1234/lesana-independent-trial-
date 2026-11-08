@@ -1,0 +1,36 @@
+{
+  "name": "satr-independent-rebuild",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build --webpack",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test:unit": "tsx --test tests/core.test.ts tests/game.test.ts",
+    "test:e2e": "playwright test",
+    "audio:generate": "node scripts/generate-audio.mjs",
+    "content:validate": "node scripts/validate-content.mjs",
+    "costs": "node scripts/costs.mjs",
+    "format": "prettier --write app components lib tests scripts *.ts *.json"
+  },
+  "dependencies": {
+    "next": "16.4.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "pg": "8.16.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "@types/node": "24.10.0",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "prettier": "3.9.10",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "@types/pg": "8.15.5"
+  }
+}
