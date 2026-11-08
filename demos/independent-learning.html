@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>تجربة تعليم مستقلة — إثبات إمكانية البناء</title>
+<style>
+:root{font-family:system-ui,-apple-system,'Segoe UI',sans-serif;color:#23312b;background:#f8f5ee;--green:#1d5546;--line:#e7e2d5;--muted:#60716c}*{box-sizing:border-box}body{margin:0}header{background:#194b40;color:#fff;padding:20px 5vw}header .inner{max-width:1020px;margin:auto}h1{margin:0;font-size:clamp(21px,4vw,32px)}header p{margin:6px 0 0;color:#d4e7dc;line-height:1.7}main{max-width:1020px;margin:26px auto;padding:0 16px;display:grid;grid-template-columns:250px 1fr;gap:20px}.box{background:white;border:1px solid var(--line);border-radius:17px;padding:21px;box-shadow:0 5px 22px #203b2d09}h2{margin:0 0 15px;font-size:19px}.muted{color:var(--muted);font-size:14px}.story{width:100%;background:#f6f7f3;border:1px solid var(--line);border-radius:12px;padding:12px;text-align:right;cursor:pointer;color:#253b33;margin:0 0 9px;font-size:15px}.story.active{border:2px solid #2d735e;background:#e9f4ee}.story small{display:block;color:#61746c;margin-top:3px}.stat{font-size:12px;color:#638077;background:#eaf2eb;border-radius:99px;padding:5px 10px;display:inline-block;margin-bottom:12px}.sentence{font-size:clamp(22px,3vw,31px);font-weight:750;direction:ltr;text-align:left;line-height:1.6;color:#1d4236;margin:14px 0}.arabic{border-right:3px solid #95b4a4;padding:8px 12px;background:#f5f8f5;border-radius:7px;margin:8px 0 15px}.controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:17px 0}button{font:inherit}button.action{border:0;background:var(--green);color:white;border-radius:10px;padding:10px 15px;cursor:pointer;font-weight:650}button.secondary{background:#eaf1eb;color:#1d5546}.speed{padding:10px;border:1px solid #bccfc3;border-radius:9px;background:white;color:#1d4236}input[type=text]{direction:ltr;text-align:left;width:100%;height:54px;border:2px solid #c9d9d1;border-radius:12px;padding:14px;font-size:18px;color:#1c352d}input:focus{outline:none;border-color:#277e60}.feedback{min-height:42px;padding:12px;margin:12px 0;border-radius:9px;background:#f5f6f3;color:#52685e;line-height:1.6}.feedback.good{background:#e2f3e8;color:#17623e}.feedback.bad{background:#fff2e3;color:#8f4b10}.progress{height:10px;background:#e7eee7;border-radius:999px;overflow:hidden;margin:14px 0}.progress div{height:100%;background:#2d815d;transition:width .3s}.bar{display:flex;justify-content:space-between;align-items:center;gap:10px}.pill{font-size:12px;border-radius:99px;padding:5px 8px;background:#eef1e9;color:#556a59}.footer{font-size:13px;line-height:1.9;color:#4a6358;margin-top:16px;border-top:1px solid var(--line);padding-top:14px}.vocab{display:inline-flex;gap:8px;padding:8px 12px;background:#f1f6f0;color:#2b634a;border-radius:9px;margin-top:6px;align-items:center}.cover{font-size:38px;margin-bottom:7px}.explain{max-width:1020px;margin:0 auto 30px;padding:0 16px}.explain .box{font-size:14px;line-height:1.9}code{background:#eff1eb;padding:2px 5px;border-radius:4px}@media(max-width:700px){main{grid-template-columns:1fr;margin:16px auto}.box{padding:16px}header{padding:19px}.controls{gap:5px}.action{padding:10px!important}} 
+</style>
+</head>
+<body>
+<header><div class="inner"><h1>نموذج مستقل: اسمع ← افهم ← اكتب ← راجع</h1><p>تجربة من الصفر تثبت إمكانية بناء وظائف تعليم مشابهة دون مستودع الموقع الأصلي. جميع النصوص أصلية لهذه التجربة.</p></div></header>
+<main>
+<aside class="box"><h2>مكتبة القصص</h2><div id="stories"></div><div class="footer"><b>من أين يأتي الصوت؟</b><br>من خدمة النطق داخل المتصفح. لا توجد ملفات صوت محمّلة ولا API مدفوعة.<br><br><b>أين يخزن التقدم؟</b><br>داخل <code>localStorage</code> في جهازك فقط، وليس على خادم.</div></aside>
+<section class="box">
+  <div class="bar"><span id="tag" class="stat"></span><span id="counter" class="pill"></span></div>
+  <div class="progress"><div id="progress" style="width:0%"></div></div>
+  <div id="mainLesson">
+   <div class="sentence" id="sentence"></div><div class="arabic" id="translation"></div>
+   <div class="vocab" id="vocab"></div>
+   <div class="controls"><button id="listen" class="action">🔊 اسمع الجملة</button><label class="muted" for="speed">السرعة:</label><select id="speed" class="speed"><option value="1">عادية 1×</option><option value="0.85">0.85×</option><option value="0.7">0.7×</option><option value="0.55">0.55×</option></select><button id="hide" class="action secondary">إخفاء النص الإنجليزي</button></div>
+   <label for="typed" class="muted">اكتب الجملة الإنجليزية كما سمعتها:</label><input type="text" id="typed" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Start typing here..."/>
+   <div id="feedback" class="feedback">اسمع أولًا، ثم اكتب الجملة. تظهر نتيجة المقارنة فورًا.</div>
+   <div class="controls"><button class="action" id="check">تحقق من الإجابة</button><button class="action secondary" id="next">الجملة التالية ←</button><button class="action secondary" id="reset">إعادة ضبط التقدم</button></div>
+  </div>
+  <div class="footer" id="stats"></div>
+</section>
+</main>
+<div class="explain"><div class="box"><b>ما الذي تُثبته هذه التجربة؟</b> يمكن بناء مكتبة قصص، وترجمة، وتشغيل صوت متعدد السرعات، وتصحيح كتابة، وحفظ تقدم ومراجعة الأخطاء بملف HTML واحد دون الوصول إلى أي كود أصلي. <b>ما الذي لا تُثبته؟</b> لا تنسخ الخوارزميات السرية أو قاعدة البيانات، ولا تتضمن نظام تسجيل دخول أو دفع أو صوت استوديو. لتصبح خدمة تجارية، يضيف المطوّر خادمًا وقاعدة بيانات وصلاحيات واشتراكات وتسجيلات صوت ثابتة إن أراد جودة موحدة.</div></div>
+<script>
+'use strict';
+const catalog=[
+ {id:'train',title:'رحلة القطار',level:'A1',emoji:'🚆',lines:[
+  {en:'I arrive at the station early.',ar:'أصل إلى المحطة مبكرًا.',word:'station',meaning:'محطة'},
+  {en:'The train leaves in ten minutes.',ar:'يغادر القطار بعد عشر دقائق.',word:'leaves',meaning:'يغادر'},
+  {en:'I cannot find my ticket.',ar:'لا أستطيع العثور على تذكرتي.',word:'ticket',meaning:'تذكرة'},
+  {en:'A kind woman offers to help me.',ar:'تعرض امرأة لطيفة مساعدتي.',word:'offers',meaning:'تعرض'}]},
+ {id:'cafe',title:'محادثة في المقهى',level:'A2',emoji:'☕',lines:[
+  {en:'Could I have a small cup of coffee?',ar:'هل يمكنني الحصول على كوب قهوة صغير؟',word:'cup',meaning:'كوب'},
+  {en:'I am waiting for a friend.',ar:'أنا أنتظر صديقًا.',word:'waiting',meaning:'أنتظر'},
+  {en:'The cafe is busier than usual.',ar:'المقهى أكثر ازدحامًا من المعتاد.',word:'busier',meaning:'أكثر ازدحامًا'},
+  {en:'We decide to sit near the window.',ar:'نقرر الجلوس قرب النافذة.',word:'decide',meaning:'نقرر'}]}
+];
+const STORE='learning-proof-v1';
+let progress={};try{progress=JSON.parse(localStorage.getItem(STORE)||'{}')||{}}catch{}
+let selected=0,index=0,misses=0,hidden=false,lastInput='';
+const $=id=>document.getElementById(id);
+function save(){try{localStorage.setItem(STORE,JSON.stringify(progress))}catch{}}
+function state(){const id=catalog[selected].id;return progress[id]||(progress[id]={done:[],mistakes:{},reviews:[]})}
+function renderStories(){ $('stories').innerHTML=''; catalog.forEach((s,i)=>{const btn=document.createElement('button');btn.className='story '+(selected===i?'active':'');const completed=(progress[s.id]?.done||[]).length;btn.innerHTML=`<b>${s.emoji} ${s.title}</b><small>${s.level} · ${completed}/${s.lines.length} جمل مُنجزة</small>`;btn.onclick=()=>{selected=i;index=0;misses=0;hidden=false;render()};$('stories').append(btn)})}
+function normalize(s){return s.trim().replace(/\s+/g,' ').replace(/[“”]/g,'"').toLowerCase()}
+function updateFeedback(){const txt=$('typed').value;const target=catalog[selected].lines[index].en;const correct=normalize(txt)===normalize(target);const prefix=target.toLowerCase().startsWith(txt.toLowerCase());const f=$('feedback');f.className='feedback '+(correct?'good':txt && !prefix?'bad':'');f.textContent=correct?'✓ ممتاز، الجملة مطابقة. اضغط تحقق لتسجيل التقدم.':!txt?'اكتب الجملة بالإنجليزية، وسأقارن الحروف فورًا.':prefix?'✓ الحروف المكتوبة صحيحة حتى الآن.':'هناك اختلاف عن النص الأصلي؛ راجع ترتيب الحروف والمسافات.'}
+function render(){renderStories();const s=catalog[selected],line=s.lines[index],st=state();$('tag').textContent=`${s.level} · ${s.title}`;$('counter').textContent=`الجملة ${index+1} من ${s.lines.length}`;$('progress').firstElementChild.style.width=`${100*st.done.length/s.lines.length}%`;$('sentence').textContent=hidden?'•••• •••• ••••• •••••':line.en;$('translation').textContent=line.ar;$('vocab').textContent=`${line.word} = ${line.meaning}`;$('typed').value='';lastInput='';misses=0;updateFeedback();const sum=Object.values(progress).reduce((a,v)=>a+(v.done?.length||0),0);const total=Object.values(progress).reduce((a,v)=>a+Object.values(v.mistakes||{}).reduce((b,n)=>b+n,0),0);$('stats').textContent=`التقدم المحفوظ على هذا الجهاز: ${sum} جملة مكتملة · ${total} أخطاء سُجلت · ${st.reviews.length} جملة بحاجة لمراجعة في هذه القصة.`;$('hide').textContent=hidden?'إظهار النص الإنجليزي':'إخفاء النص الإنجليزي'}
+$('typed').addEventListener('input',e=>{const val=e.target.value,target=catalog[selected].lines[index].en;if(val.length>lastInput.length && !target.toLowerCase().startsWith(val.toLowerCase()))misses++;lastInput=val;updateFeedback()});
+$('check').onclick=()=>{const st=state(),target=catalog[selected].lines[index].en;if(normalize($('typed').value)!==normalize(target)){$('feedback').textContent='لم تتطابق الجملة بعد. صححها ثم تحقق من جديد.';$('feedback').className='feedback bad';misses=Math.max(misses,1);return;}if(!st.done.includes(index))st.done.push(index);if(misses>0){st.mistakes[index]=(st.mistakes[index]||0)+misses;if(!st.reviews.includes(index))st.reviews.push(index)}else{st.reviews=st.reviews.filter(n=>n!==index);}save();$('feedback').textContent=misses?`✓ اكتملت الجملة، وسجلت ${misses} خطأ للمراجعة.`:'✓ اكتملت الجملة دون أخطاء.';$('feedback').className='feedback good';renderStories();$('progress').firstElementChild.style.width=`${100*st.done.length/catalog[selected].lines.length}%`};
+$('next').onclick=()=>{const len=catalog[selected].lines.length;if(index<len-1)index++;else{const q=state().reviews;if(q.length){index=q[0];q.push(q.shift());save()}else index=0;}hidden=false;render()};
+$('reset').onclick=()=>{if(confirm('هل تريد مسح تقدم هذا النموذج على جهازك؟')){progress={};save();index=0;render()}};
+$('hide').onclick=()=>{hidden=!hidden;$('sentence').textContent=hidden?'•••• •••• ••••• •••••':catalog[selected].lines[index].en;$('hide').textContent=hidden?'إظهار النص الإنجليزي':'إخفاء النص الإنجليزي'};
+$('listen').onclick=()=>{if(!('speechSynthesis' in window)){alert('المتصفح لا يدعم توليد الصوت محليًا.');return}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(catalog[selected].lines[index].en);u.lang='en-US';u.rate=parseFloat($('speed').value);const list=speechSynthesis.getVoices();const preferred=list.find(v=>v.lang.toLowerCase().startsWith('en')&&v.name.toLowerCase().includes('google'))||list.find(v=>v.lang.toLowerCase().startsWith('en'));if(preferred)u.voice=preferred;speechSynthesis.speak(u)};
+render();
+</script>
+</body></html>
