@@ -1,0 +1,644 @@
+[
+  {
+    "id": "A1-1",
+    "level": "A1",
+    "number": 1,
+    "words": [
+      {
+        "en": "learn",
+        "ar": "أتعلم",
+        "source": "public-free-example"
+      },
+      {
+        "en": "some",
+        "ar": "بعض",
+        "source": "public-free-example"
+      },
+      {
+        "en": "words",
+        "ar": "كلمات",
+        "source": "public-free-example"
+      },
+      {
+        "en": "sentences",
+        "ar": "جمل",
+        "source": "public-free-example"
+      },
+      {
+        "en": "scare",
+        "ar": "تخيف",
+        "source": "public-free-example"
+      },
+      {
+        "en": "start",
+        "ar": "أبدأ",
+        "source": "public-free-example"
+      },
+      {
+        "en": "another",
+        "ar": "آخر",
+        "source": "public-free-example"
+      },
+      {
+        "en": "begin",
+        "ar": "أبدأ",
+        "source": "public-free-example"
+      },
+      {
+        "en": "book",
+        "ar": "كتاب",
+        "source": "original-independent"
+      },
+      {
+        "en": "door",
+        "ar": "باب",
+        "source": "original-independent"
+      },
+      {
+        "en": "water",
+        "ar": "ماء",
+        "source": "original-independent"
+      },
+      {
+        "en": "home",
+        "ar": "بيت",
+        "source": "original-independent"
+      },
+      {
+        "en": "school",
+        "ar": "مدرسة",
+        "source": "original-independent"
+      },
+      {
+        "en": "friend",
+        "ar": "صديق",
+        "source": "original-independent"
+      },
+      {
+        "en": "day",
+        "ar": "يوم",
+        "source": "original-independent"
+      },
+      {
+        "en": "night",
+        "ar": "ليل",
+        "source": "original-independent"
+      },
+      {
+        "en": "small",
+        "ar": "صغير",
+        "source": "original-independent"
+      },
+      {
+        "en": "happy",
+        "ar": "سعيد",
+        "source": "original-independent"
+      },
+      {
+        "en": "write",
+        "ar": "يكتب",
+        "source": "original-independent"
+      },
+      {
+        "en": "listen",
+        "ar": "يستمع",
+        "source": "original-independent"
+      }
+    ]
+  },
+  {
+    "id": "A1-2",
+    "level": "A1",
+    "number": 2,
+    "words": [
+      {
+        "en": "family",
+        "ar": "عائلة",
+        "source": "original-independent"
+      },
+      {
+        "en": "mother",
+        "ar": "أم",
+        "source": "original-independent"
+      },
+      {
+        "en": "father",
+        "ar": "أب",
+        "source": "original-independent"
+      },
+      {
+        "en": "child",
+        "ar": "طفل",
+        "source": "original-independent"
+      },
+      {
+        "en": "food",
+        "ar": "طعام",
+        "source": "original-independent"
+      },
+      {
+        "en": "apple",
+        "ar": "تفاحة",
+        "source": "original-independent"
+      },
+      {
+        "en": "train",
+        "ar": "قطار",
+        "source": "original-independent"
+      },
+      {
+        "en": "city",
+        "ar": "مدينة",
+        "source": "original-independent"
+      },
+      {
+        "en": "room",
+        "ar": "غرفة",
+        "source": "original-independent"
+      },
+      {
+        "en": "table",
+        "ar": "طاولة",
+        "source": "original-independent"
+      },
+      {
+        "en": "chair",
+        "ar": "كرسي",
+        "source": "original-independent"
+      },
+      {
+        "en": "green",
+        "ar": "أخضر",
+        "source": "original-independent"
+      },
+      {
+        "en": "blue",
+        "ar": "أزرق",
+        "source": "original-independent"
+      },
+      {
+        "en": "today",
+        "ar": "اليوم",
+        "source": "original-independent"
+      },
+      {
+        "en": "tomorrow",
+        "ar": "غدًا",
+        "source": "original-independent"
+      },
+      {
+        "en": "early",
+        "ar": "مبكر",
+        "source": "original-independent"
+      },
+      {
+        "en": "late",
+        "ar": "متأخر",
+        "source": "original-independent"
+      },
+      {
+        "en": "walk",
+        "ar": "يمشي",
+        "source": "original-independent"
+      },
+      {
+        "en": "read",
+        "ar": "يقرأ",
+        "source": "original-independent"
+      },
+      {
+        "en": "speak",
+        "ar": "يتحدث",
+        "source": "original-independent"
+      }
+    ]
+  },
+  {
+    "id": "A2-1",
+    "level": "A2",
+    "number": 1,
+    "words": [
+      {
+        "en": "journey",
+        "ar": "رحلة",
+        "source": "original-independent"
+      },
+      {
+        "en": "neighbor",
+        "ar": "جار",
+        "source": "original-independent"
+      },
+      {
+        "en": "garden",
+        "ar": "حديقة",
+        "source": "original-independent"
+      },
+      {
+        "en": "empty",
+        "ar": "فارغ",
+        "source": "original-independent"
+      },
+      {
+        "en": "quiet",
+        "ar": "هادئ",
+        "source": "original-independent"
+      },
+      {
+        "en": "arrive",
+        "ar": "يصل",
+        "source": "original-independent"
+      },
+      {
+        "en": "borrow",
+        "ar": "يستعير",
+        "source": "original-independent"
+      },
+      {
+        "en": "return",
+        "ar": "يعود",
+        "source": "original-independent"
+      },
+      {
+        "en": "invite",
+        "ar": "يدعو",
+        "source": "original-independent"
+      },
+      {
+        "en": "choose",
+        "ar": "يختار",
+        "source": "original-independent"
+      },
+      {
+        "en": "prepare",
+        "ar": "يجهز",
+        "source": "original-independent"
+      },
+      {
+        "en": "through",
+        "ar": "عبر",
+        "source": "original-independent"
+      },
+      {
+        "en": "beside",
+        "ar": "بجانب",
+        "source": "original-independent"
+      },
+      {
+        "en": "although",
+        "ar": "مع أن",
+        "source": "original-independent"
+      },
+      {
+        "en": "remember",
+        "ar": "يتذكر",
+        "source": "original-independent"
+      },
+      {
+        "en": "forget",
+        "ar": "ينسى",
+        "source": "original-independent"
+      },
+      {
+        "en": "careful",
+        "ar": "حذر",
+        "source": "original-independent"
+      },
+      {
+        "en": "surprise",
+        "ar": "مفاجأة",
+        "source": "original-independent"
+      },
+      {
+        "en": "message",
+        "ar": "رسالة",
+        "source": "original-independent"
+      },
+      {
+        "en": "promise",
+        "ar": "وعد",
+        "source": "original-independent"
+      }
+    ]
+  },
+  {
+    "id": "B1-1",
+    "level": "B1",
+    "number": 1,
+    "words": [
+      {
+        "en": "exhibition",
+        "ar": "معرض",
+        "source": "original-independent"
+      },
+      {
+        "en": "painting",
+        "ar": "لوحة",
+        "source": "original-independent"
+      },
+      {
+        "en": "conversation",
+        "ar": "محادثة",
+        "source": "original-independent"
+      },
+      {
+        "en": "recognize",
+        "ar": "يتعرف",
+        "source": "original-independent"
+      },
+      {
+        "en": "opportunity",
+        "ar": "فرصة",
+        "source": "original-independent"
+      },
+      {
+        "en": "decision",
+        "ar": "قرار",
+        "source": "original-independent"
+      },
+      {
+        "en": "community",
+        "ar": "مجتمع",
+        "source": "original-independent"
+      },
+      {
+        "en": "confidence",
+        "ar": "ثقة",
+        "source": "original-independent"
+      },
+      {
+        "en": "improve",
+        "ar": "يتحسن",
+        "source": "original-independent"
+      },
+      {
+        "en": "explain",
+        "ar": "يشرح",
+        "source": "original-independent"
+      },
+      {
+        "en": "compare",
+        "ar": "يقارن",
+        "source": "original-independent"
+      },
+      {
+        "en": "support",
+        "ar": "يدعم",
+        "source": "original-independent"
+      },
+      {
+        "en": "advice",
+        "ar": "نصيحة",
+        "source": "original-independent"
+      },
+      {
+        "en": "purpose",
+        "ar": "هدف",
+        "source": "original-independent"
+      },
+      {
+        "en": "experience",
+        "ar": "خبرة",
+        "source": "original-independent"
+      },
+      {
+        "en": "challenge",
+        "ar": "تحدي",
+        "source": "original-independent"
+      },
+      {
+        "en": "reflect",
+        "ar": "يتأمل",
+        "source": "original-independent"
+      },
+      {
+        "en": "achieve",
+        "ar": "يحقق",
+        "source": "original-independent"
+      },
+      {
+        "en": "consider",
+        "ar": "ينظر في",
+        "source": "original-independent"
+      },
+      {
+        "en": "describe",
+        "ar": "يصف",
+        "source": "original-independent"
+      }
+    ]
+  },
+  {
+    "id": "B2-1",
+    "level": "B2",
+    "number": 1,
+    "words": [
+      {
+        "en": "perspective",
+        "ar": "منظور",
+        "source": "original-independent"
+      },
+      {
+        "en": "assumption",
+        "ar": "افتراض",
+        "source": "original-independent"
+      },
+      {
+        "en": "consequence",
+        "ar": "نتيجة",
+        "source": "original-independent"
+      },
+      {
+        "en": "negotiate",
+        "ar": "يتفاوض",
+        "source": "original-independent"
+      },
+      {
+        "en": "interpret",
+        "ar": "يفسر",
+        "source": "original-independent"
+      },
+      {
+        "en": "justify",
+        "ar": "يبرر",
+        "source": "original-independent"
+      },
+      {
+        "en": "emphasize",
+        "ar": "يؤكد",
+        "source": "original-independent"
+      },
+      {
+        "en": "reliable",
+        "ar": "موثوق",
+        "source": "original-independent"
+      },
+      {
+        "en": "subtle",
+        "ar": "دقيق",
+        "source": "original-independent"
+      },
+      {
+        "en": "significant",
+        "ar": "مهم",
+        "source": "original-independent"
+      },
+      {
+        "en": "complexity",
+        "ar": "تعقيد",
+        "source": "original-independent"
+      },
+      {
+        "en": "alternative",
+        "ar": "بديل",
+        "source": "original-independent"
+      },
+      {
+        "en": "influence",
+        "ar": "تأثير",
+        "source": "original-independent"
+      },
+      {
+        "en": "evaluate",
+        "ar": "يقيّم",
+        "source": "original-independent"
+      },
+      {
+        "en": "contribute",
+        "ar": "يسهم",
+        "source": "original-independent"
+      },
+      {
+        "en": "maintain",
+        "ar": "يحافظ",
+        "source": "original-independent"
+      },
+      {
+        "en": "approach",
+        "ar": "نهج",
+        "source": "original-independent"
+      },
+      {
+        "en": "potential",
+        "ar": "إمكان",
+        "source": "original-independent"
+      },
+      {
+        "en": "precise",
+        "ar": "دقيق",
+        "source": "original-independent"
+      },
+      {
+        "en": "adapt",
+        "ar": "يتكيف",
+        "source": "original-independent"
+      }
+    ]
+  },
+  {
+    "id": "C1-1",
+    "level": "C1",
+    "number": 1,
+    "words": [
+      {
+        "en": "nuance",
+        "ar": "فارق دقيق",
+        "source": "original-independent"
+      },
+      {
+        "en": "coherent",
+        "ar": "مترابط",
+        "source": "original-independent"
+      },
+      {
+        "en": "implication",
+        "ar": "دلالة",
+        "source": "original-independent"
+      },
+      {
+        "en": "ambiguous",
+        "ar": "ملتبس",
+        "source": "original-independent"
+      },
+      {
+        "en": "articulate",
+        "ar": "يعبر بوضوح",
+        "source": "original-independent"
+      },
+      {
+        "en": "synthesize",
+        "ar": "يركب الأفكار",
+        "source": "original-independent"
+      },
+      {
+        "en": "rigorous",
+        "ar": "صارم",
+        "source": "original-independent"
+      },
+      {
+        "en": "plausible",
+        "ar": "معقول",
+        "source": "original-independent"
+      },
+      {
+        "en": "discern",
+        "ar": "يميّز",
+        "source": "original-independent"
+      },
+      {
+        "en": "elaborate",
+        "ar": "يفصل",
+        "source": "original-independent"
+      },
+      {
+        "en": "inherent",
+        "ar": "متأصل",
+        "source": "original-independent"
+      },
+      {
+        "en": "constrain",
+        "ar": "يقيّد",
+        "source": "original-independent"
+      },
+      {
+        "en": "facilitate",
+        "ar": "يسهل",
+        "source": "original-independent"
+      },
+      {
+        "en": "detrimental",
+        "ar": "ضار",
+        "source": "original-independent"
+      },
+      {
+        "en": "resilient",
+        "ar": "مرن",
+        "source": "original-independent"
+      },
+      {
+        "en": "profound",
+        "ar": "عميق",
+        "source": "original-independent"
+      },
+      {
+        "en": "tentative",
+        "ar": "مبدئي",
+        "source": "original-independent"
+      },
+      {
+        "en": "substantiate",
+        "ar": "يدعم بالأدلة",
+        "source": "original-independent"
+      },
+      {
+        "en": "meticulous",
+        "ar": "دقيق جدًا",
+        "source": "original-independent"
+      },
+      {
+        "en": "contemplate",
+        "ar": "يتأمل",
+        "source": "original-independent"
+      }
+    ]
+  }
+]

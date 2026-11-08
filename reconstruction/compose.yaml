@@ -1,0 +1,13 @@
+services:
+  satr:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      SAT_DATABASE_PATH: /app/private-data/satr.sqlite
+      APP_ORIGIN: ${APP_ORIGIN:-http://localhost:3000}
+    volumes:
+      - satr-data:/app/private-data
+    restart: unless-stopped
+volumes:
+  satr-data:

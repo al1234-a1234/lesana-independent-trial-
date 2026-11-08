@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "late-arrival",
+    "titleEn": "A Late Arrival",
+    "titleAr": "وصول متأخر",
+    "level": "A2",
+    "cover": "/images/late-arrival-original.webp",
+    "source": "independent-original-inspired-by-owner-ui-description",
+    "sections": [
+      {"label":"OUTSIDE THE CAFE","titleAr":"خارج المقهى","text":"Sara arrived at the cafe after the rain began.","translation":"وصلت سارة إلى المقهى بعد أن بدأ المطر.","question":"Sara arrives before the rain.","correct":false,"explanation":"The rain had already begun before Sara arrived."},
+      {"label":"AT THE DOOR","titleAr":"عند الباب","text":"She opened the door and said, I am sorry I am late.","translation":"فتحت الباب وقالت: أنا آسفة لأنني تأخرت.","question":"Sara says sorry.","correct":true,"explanation":"Sara says that she is sorry for arriving late."},
+      {"label":"INSIDE","titleAr":"في الداخل","text":"Her friend smiled and saved a seat near the window.","translation":"ابتسمت صديقتها واحتفظت بمقعد قرب النافذة.","question":"Her friend leaves immediately.","correct":false,"explanation":"Her friend stayed and saved a seat for her."},
+      {"label":"A NEW START","titleAr":"بداية جديدة","text":"They ordered tea and planned a walk for tomorrow.","translation":"طلبتا الشاي وخططتا لنزهة في الغد.","question":"They plan a walk for tomorrow.","correct":true,"explanation":"They planned a walk for the next day."}
+    ]
+  }
+]

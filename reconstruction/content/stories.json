@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "saturday-train",
+    "title": "قطار السبت",
+    "titleEn": "The Saturday Train",
+    "level": "A1",
+    "theme": "train",
+    "description": "رحلة قصيرة إلى البحر تبدأ بتذكرة زرقاء وتنتهي بصديق جديد.",
+    "lines": [
+      {
+        "text": "I carry a blue ticket",
+        "ar": "أحمل تذكرة زرقاء.",
+        "keyword": {
+          "en": "ticket",
+          "ar": "تذكرة"
+        }
+      },
+      {
+        "text": "The train leaves after breakfast",
+        "ar": "يغادر القطار بعد الفطور.",
+        "keyword": {
+          "en": "leaves",
+          "ar": "يغادر"
+        }
+      },
+      {
+        "text": "A small dog sits beside me",
+        "ar": "يجلس كلب صغير بجانبي.",
+        "keyword": {
+          "en": "beside",
+          "ar": "بجانب"
+        }
+      },
+      {
+        "text": "Its owner offers me an apple",
+        "ar": "يقدم لي صاحبه تفاحة.",
+        "keyword": {
+          "en": "offers",
+          "ar": "يقدّم"
+        }
+      },
+      {
+        "text": "We watch the sea through the window",
+        "ar": "نشاهد البحر من النافذة.",
+        "keyword": {
+          "en": "through",
+          "ar": "عبر"
+        }
+      },
+      {
+        "text": "Now the journey feels much shorter",
+        "ar": "الآن تبدو الرحلة أقصر بكثير.",
+        "keyword": {
+          "en": "journey",
+          "ar": "رحلة"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "rooftop-garden",
+    "title": "حديقة فوق السطح",
+    "titleEn": "A Garden Above the City",
+    "level": "A2",
+    "theme": "garden",
+    "description": "شتلة صغيرة تمنح جيران عمارة مزدحمة سببًا ليلتقوا كل مساء.",
+    "lines": [
+      {
+        "text": "Our roof was empty last spring",
+        "ar": "كان سطحنا فارغًا في الربيع الماضي.",
+        "keyword": {
+          "en": "empty",
+          "ar": "فارغ"
+        }
+      },
+      {
+        "text": "Maya brought three pots of mint",
+        "ar": "أحضرت مايا ثلاثة أصص نعناع.",
+        "keyword": {
+          "en": "mint",
+          "ar": "نعناع"
+        }
+      },
+      {
+        "text": "We planted tomatoes beside the stairs",
+        "ar": "زرعنا الطماطم بجوار الدرج.",
+        "keyword": {
+          "en": "planted",
+          "ar": "زرعنا"
+        }
+      },
+      {
+        "text": "Every neighbor takes a turn watering",
+        "ar": "يأخذ كل جار دوره في السقي.",
+        "keyword": {
+          "en": "neighbor",
+          "ar": "جار"
+        }
+      },
+      {
+        "text": "Yesterday we shared our first harvest",
+        "ar": "بالأمس تقاسمنا أول حصاد لنا.",
+        "keyword": {
+          "en": "harvest",
+          "ar": "حصاد"
+        }
+      },
+      {
+        "text": "The roof is our favorite room now",
+        "ar": "أصبح السطح غرفتنا المفضلة الآن.",
+        "keyword": {
+          "en": "favorite",
+          "ar": "مفضّل"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "little-exhibition",
+    "title": "المعرض الصغير",
+    "titleEn": "The Little Exhibition",
+    "level": "B1",
+    "theme": "art",
+    "description": "رسّامة تختار أن تعرض محاولاتها الأولى، فتكتشف قيمة لم تكن تراها.",
+    "lines": [
+      {
+        "text": "Lina almost canceled her first exhibition",
+        "ar": "كادت لينا تلغي معرضها الأول.",
+        "keyword": {
+          "en": "exhibition",
+          "ar": "معرض"
+        }
+      },
+      {
+        "text": "She thought her paintings were too simple",
+        "ar": "ظنت أن لوحاتها بسيطة أكثر من اللازم.",
+        "keyword": {
+          "en": "paintings",
+          "ar": "لوحات"
+        }
+      },
+      {
+        "text": "Her brother borrowed tables from the library",
+        "ar": "استعار أخوها طاولات من المكتبة.",
+        "keyword": {
+          "en": "borrowed",
+          "ar": "استعار"
+        }
+      },
+      {
+        "text": "By sunset the little hall was full",
+        "ar": "بحلول الغروب امتلأت القاعة الصغيرة.",
+        "keyword": {
+          "en": "sunset",
+          "ar": "غروب"
+        }
+      },
+      {
+        "text": "A visitor recognized the street in one painting",
+        "ar": "تعرف زائر على الشارع في إحدى اللوحات.",
+        "keyword": {
+          "en": "recognized",
+          "ar": "تعرّف على"
+        }
+      },
+      {
+        "text": "That conversation mattered more than any sale",
+        "ar": "كانت تلك المحادثة أهم من أي عملية بيع.",
+        "keyword": {
+          "en": "mattered",
+          "ar": "كان ذا أهمية"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "i-can-start",
+    "title": "أستطيع أن أبدأ",
+    "titleEn": "I Can Start",
+    "level": "A1",
+    "theme": "start",
+    "description": "أول سطر هو أصعب سطر. بعده يصير كل شيء أسهل.",
+    "source": "public-free-story-preview-and-public-meaning-pages",
+    "cover": "/images/i-can-start-public.webp",
+    "lines": [
+      {
+        "text": "I want to learn English",
+        "ar": "أريد أن أتعلم الإنجليزية.",
+        "keyword": {
+          "en": "learn",
+          "ar": "أتعلم"
+        },
+        "source": "public-free-preview"
+      },
+      {
+        "text": "I know some English words",
+        "ar": "أعرف بعض الكلمات الإنجليزية.",
+        "keyword": {
+          "en": "some",
+          "ar": "بعض"
+        },
+        "source": "public-free-preview"
+      },
+      {
+        "text": "Long sentences still scare me",
+        "ar": "الجمل الطويلة ما زالت تخيفني.",
+        "keyword": {
+          "en": "scare",
+          "ar": "تخيف"
+        },
+        "source": "public-free-preview"
+      },
+      {
+        "text": "So I start with one line",
+        "ar": "لذلك أبدأ بسطر واحد.",
+        "keyword": {
+          "en": "start",
+          "ar": "أبدأ"
+        },
+        "source": "public-meaning-page-free-story-example"
+      },
+      {
+        "text": "Then I write another one",
+        "ar": "ثم أكتب سطرًا آخر.",
+        "keyword": {
+          "en": "another",
+          "ar": "آخر"
+        },
+        "source": "public-meaning-page-free-story-example"
+      },
+      {
+        "text": "This is how I begin",
+        "ar": "هكذا أبدأ.",
+        "keyword": {
+          "en": "begin",
+          "ar": "يبدأ"
+        },
+        "source": "public-meaning-page-free-story-example"
+      }
+    ]
+  }
+]
