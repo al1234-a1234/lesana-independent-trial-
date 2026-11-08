@@ -1,0 +1,524 @@
+[
+  {
+    "id": "saturday-train-1",
+    "text": "I carry a blue ticket",
+    "characters": 21,
+    "bytes": 19479,
+    "duration": 1.593469,
+    "sha256": "ccd45f0e55ebc4ca73390d57fdd7c887ca55de40b66ac1b310f9b5772ebef6ef",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "saturday-train-2",
+    "text": "The train leaves after breakfast",
+    "characters": 32,
+    "bytes": 26688,
+    "duration": 2.194286,
+    "sha256": "1aed5adc9017ec711c506caac90a0ac80c13dc1e7786ac1dcb182812d121264b",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "saturday-train-3",
+    "text": "A small dog sits beside me",
+    "characters": 26,
+    "bytes": 28883,
+    "duration": 2.377143,
+    "sha256": "715f6a31598ecac743609a0c2f96a89f1571b6b9eb2cd4a3469a66297117eff0",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "saturday-train-4",
+    "text": "Its owner offers me an apple",
+    "characters": 28,
+    "bytes": 27629,
+    "duration": 2.272653,
+    "sha256": "bcf795324e87920817108bb77f86ab5c86a624fdf11dde0a0b7d200739a70397",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "saturday-train-5",
+    "text": "We watch the sea through the window",
+    "characters": 35,
+    "bytes": 25121,
+    "duration": 2.063673,
+    "sha256": "c6135238247d602a1ba0dd897402b4c0995b202bd2ae5b973861a6c388896e8f",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "saturday-train-6",
+    "text": "Now the journey feels much shorter",
+    "characters": 34,
+    "bytes": 28256,
+    "duration": 2.324898,
+    "sha256": "fb5aba1e1830e7dc9db48cc531065fff9829a50de887e571bf11ca647e16b6ed",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "rooftop-garden-1",
+    "text": "Our roof was empty last spring",
+    "characters": 30,
+    "bytes": 28883,
+    "duration": 2.377143,
+    "sha256": "a0cd0c812591d4297a5e8f9b9b1cd6b1b304c789a42e4c8a5d8c54a317284961",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "rooftop-garden-2",
+    "text": "Maya brought three pots of mint",
+    "characters": 31,
+    "bytes": 26062,
+    "duration": 2.142041,
+    "sha256": "13e3aa9dd5698ac3a74defdaea98b6f4c4cebe433b1ec2d1347e78909a4a39d4",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "rooftop-garden-3",
+    "text": "We planted tomatoes beside the stairs",
+    "characters": 37,
+    "bytes": 36406,
+    "duration": 3.004082,
+    "sha256": "d84fabfddb49eacb448b2d0a8cadbe135d0c4826173e70ea146d5b2e3dfc502c",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "rooftop-garden-4",
+    "text": "Every neighbor takes a turn watering",
+    "characters": 36,
+    "bytes": 32017,
+    "duration": 2.638367,
+    "sha256": "0d17e89f0edea8974ae7f9b12a05277afc6b50c9de93de9c7fa5782dc28875c9",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "rooftop-garden-5",
+    "text": "Yesterday we shared our first harvest",
+    "characters": 37,
+    "bytes": 33585,
+    "duration": 2.76898,
+    "sha256": "cc1836894126174913b83392961a2929aa46b99462ad85c7ce3eae9b37520ba5",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "rooftop-garden-6",
+    "text": "The roof is our favorite room now",
+    "characters": 33,
+    "bytes": 30137,
+    "duration": 2.481633,
+    "sha256": "9b12b613d07be1cefc54a5af177f6c92feb2eb715cc8c54a43a3edf4997a016d",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "little-exhibition-1",
+    "text": "Lina almost canceled her first exhibition",
+    "characters": 41,
+    "bytes": 37660,
+    "duration": 3.108571,
+    "sha256": "59fd8e5c56f36c125b209379f6c66f91d103a3e4d3db54265bfc74d64be5df23",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "little-exhibition-2",
+    "text": "She thought her paintings were too simple",
+    "characters": 41,
+    "bytes": 32958,
+    "duration": 2.716735,
+    "sha256": "f9f900fe70bc06398d3c9cc0b88998f19f4bef572169df38b81c5b14e641608b",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "little-exhibition-3",
+    "text": "Her brother borrowed tables from the library",
+    "characters": 44,
+    "bytes": 33271,
+    "duration": 2.742857,
+    "sha256": "0f06b6a7729a83436e5bdb6d08e8c1fe5c221106f3a7c14b1b5f8c3697115709",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "little-exhibition-4",
+    "text": "By sunset the little hall was full",
+    "characters": 34,
+    "bytes": 26688,
+    "duration": 2.194286,
+    "sha256": "284a3da30818a71e38ab2561371a47e8510c9ccde543bdacbb4a0050bddd2e1c",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "little-exhibition-5",
+    "text": "A visitor recognized the street in one painting",
+    "characters": 47,
+    "bytes": 39227,
+    "duration": 3.239184,
+    "sha256": "e7cfba6b2cbdd9bb0ceef11a919a2b160ccbced05d1a51c56cee97c87ef0010c",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "little-exhibition-6",
+    "text": "That conversation mattered more than any sale",
+    "characters": 45,
+    "bytes": 36719,
+    "duration": 3.030204,
+    "sha256": "cc2137ec53518a1da4fda456caf631a3e2be3269a68cc8997acbffcdd42ee2a9",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "i-can-start-1",
+    "text": "I want to learn English",
+    "characters": 23,
+    "bytes": 19479,
+    "duration": 1.593469,
+    "sha256": "741ab6e5117794f94d76a806572ee92e3cb58412e2fd84bc3c02575f87ca4e43",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "i-can-start-2",
+    "text": "I know some English words",
+    "characters": 25,
+    "bytes": 22613,
+    "duration": 1.854694,
+    "sha256": "74c00f876d49826dfdbcee51a408bd9575cd1e4aeb02785780de9521d72d380c",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "i-can-start-3",
+    "text": "Long sentences still scare me",
+    "characters": 29,
+    "bytes": 28569,
+    "duration": 2.35102,
+    "sha256": "b5e251a4f1381946deab879e62693c7c18494bd3620f752c03d1a006df3ea6dc",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "i-can-start-4",
+    "text": "So I start with one line",
+    "characters": 24,
+    "bytes": 23554,
+    "duration": 1.933061,
+    "sha256": "68802eb4c7763e86b90bb686ae02034b11aa9c75b71a0ba86dd0a0ba69c17bd1",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "i-can-start-5",
+    "text": "Then I write another one",
+    "characters": 24,
+    "bytes": 22613,
+    "duration": 1.854694,
+    "sha256": "8182fbe1c27fa3311b7a9f0e42c8c06d45e2fa04458acf3d017b8bd78f6007ba",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "i-can-start-6",
+    "text": "This is how I begin",
+    "characters": 19,
+    "bytes": 20106,
+    "duration": 1.645714,
+    "sha256": "a9214767c2c74cd0c2e10af8a4ea5666adb12e1b33907bc6ffd39ff270de84df",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-ticket",
+    "text": "ticket",
+    "characters": 6,
+    "bytes": 9448,
+    "duration": 0.757551,
+    "sha256": "4a6c878e5c2e1970680b1dfaebcf3cc00620c89a5bc82ffcd7f0fc0aa4fbf602",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-leaves",
+    "text": "leaves",
+    "characters": 6,
+    "bytes": 10388,
+    "duration": 0.835918,
+    "sha256": "8e9b0e98aeabc9908c2f2545ba0be18a1f8cb58a5e49f80d6ad75e2021b4fc4c",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-beside",
+    "text": "beside",
+    "characters": 6,
+    "bytes": 12269,
+    "duration": 0.992653,
+    "sha256": "ce8667e26a6791687c91d3e2ea3c95e52eb879acf3341fac5dfe71226fc082a1",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-offers",
+    "text": "offers",
+    "characters": 6,
+    "bytes": 12269,
+    "duration": 0.992653,
+    "sha256": "d05a01f7e2c2e65e51c2918bb7a7b2ebfa0ac0540f2b8400ed68714cbf5e7746",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-through",
+    "text": "through",
+    "characters": 7,
+    "bytes": 11642,
+    "duration": 0.940408,
+    "sha256": "7f6cd3eb5d385527fde74dc10c29767cb1ac52b33f99ae57ac00bbe03acce5b6",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-journey",
+    "text": "journey",
+    "characters": 7,
+    "bytes": 11328,
+    "duration": 0.914286,
+    "sha256": "68d5228cbfd420a58c8d88c517e38c5d7494e77d787257cbd206128c8eafa0cf",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-empty",
+    "text": "empty",
+    "characters": 5,
+    "bytes": 13209,
+    "duration": 1.07102,
+    "sha256": "f86c372e256e4a5ea077af2968fb3892d93be7265ca065b54e238ec3ead80e35",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-mint",
+    "text": "mint",
+    "characters": 4,
+    "bytes": 10702,
+    "duration": 0.862041,
+    "sha256": "605901bbc61a429ddfc3980c393aebac90dc6ddc5b7f7337bf7b671a78e8d0ca",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-planted",
+    "text": "planted",
+    "characters": 7,
+    "bytes": 11642,
+    "duration": 0.940408,
+    "sha256": "4da0fa05dd0c40d0ea2f744bd485a9385c75a36d2421406bf28d71fd9591cdf8",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-neighbor",
+    "text": "neighbor",
+    "characters": 8,
+    "bytes": 9448,
+    "duration": 0.757551,
+    "sha256": "1500aec579f74a3855a647be2e71d6d89cfdac2311d532a3b3745108e1c48992",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-harvest",
+    "text": "harvest",
+    "characters": 7,
+    "bytes": 11328,
+    "duration": 0.914286,
+    "sha256": "38e2bbbf007ff7429eb5b546740417e534e36dad804ad269684c467abe5b9f02",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-favorite",
+    "text": "favorite",
+    "characters": 8,
+    "bytes": 11015,
+    "duration": 0.888163,
+    "sha256": "484d2766a1d8680d63c1887e7bc2290218af531e628f4540e886876c8d66ee16",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-exhibition",
+    "text": "exhibition",
+    "characters": 10,
+    "bytes": 15717,
+    "duration": 1.28,
+    "sha256": "4a68f3fc44609fef9bf35d5b74c8f7dbca89c179cf25ad94d454ca184b7b8ab2",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-paintings",
+    "text": "paintings",
+    "characters": 9,
+    "bytes": 13836,
+    "duration": 1.123265,
+    "sha256": "4658f0171ed0db1fbe7a5dddff02f79d6d436a0df8ee3f1c5d65712a4d5d693b",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-borrowed",
+    "text": "borrowed",
+    "characters": 8,
+    "bytes": 13523,
+    "duration": 1.097143,
+    "sha256": "9870ccaadd5a94ccfd21f492907b10bd1f356794b906490fef1bf7b6474fbf73",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-sunset",
+    "text": "sunset",
+    "characters": 6,
+    "bytes": 11955,
+    "duration": 0.966531,
+    "sha256": "44fa143aa65eab6286fb586907fa8588bd7b8c4a7be9243b5e7ffd63d027fdda",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-recognized",
+    "text": "recognized",
+    "characters": 10,
+    "bytes": 14463,
+    "duration": 1.17551,
+    "sha256": "8a57329a7ab660748adfc1d6480e5fdf66ef2b01e9f0ba053c4fb850dc685f90",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-mattered",
+    "text": "mattered",
+    "characters": 8,
+    "bytes": 11955,
+    "duration": 0.966531,
+    "sha256": "ceac890e9a151ff32ec72c786f686fa96728c69761cc7240256e2c90db8282f9",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-learn",
+    "text": "learn",
+    "characters": 5,
+    "bytes": 11642,
+    "duration": 0.940408,
+    "sha256": "65fae9144f0fd5995d1805fa9ccd879f2d8be58879b83c087fece7b4696e351f",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-some",
+    "text": "some",
+    "characters": 4,
+    "bytes": 11015,
+    "duration": 0.888163,
+    "sha256": "d9e8188b414cd1863e6621fdcdfe280c4b62cb38fe85813fa58772047076405c",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-scare",
+    "text": "scare",
+    "characters": 5,
+    "bytes": 9448,
+    "duration": 0.757551,
+    "sha256": "74436d15ca175659a3d59853d8af096b94e2321034df7efacc68312099098e45",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-start",
+    "text": "start",
+    "characters": 5,
+    "bytes": 11642,
+    "duration": 0.940408,
+    "sha256": "3b74172168af7a0fa0b6643bb1c3e0a9a314302af6d3bf88af0221eba7f07394",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-another",
+    "text": "another",
+    "characters": 7,
+    "bytes": 10702,
+    "duration": 0.862041,
+    "sha256": "cf91a2f55adb57fd32efc778d0f639598a1ac4f8cde9afb62523bfaa219dd886",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "word-begin",
+    "text": "begin",
+    "characters": 5,
+    "bytes": 10075,
+    "duration": 0.809796,
+    "sha256": "73818fd3bc1eba839e7216e12d25f723b131157399bc3ea021b3f44848143726",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "passage-late-arrival-1",
+    "text": "Sara arrived at the cafe after the rain began.",
+    "characters": 46,
+    "bytes": 35779,
+    "duration": 2.951837,
+    "sha256": "9a954da42c28792f1f285ced5d3c435c53337cefdf84fe9972ff1187ac61298d",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "passage-late-arrival-2",
+    "text": "She opened the door and said, I am sorry I am late.",
+    "characters": 51,
+    "bytes": 37033,
+    "duration": 3.056327,
+    "sha256": "f6f2f8b6d48061427574f6cfea17ee8591fbb7d4bfc3f81128f39f62110b077b",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "passage-late-arrival-3",
+    "text": "Her friend smiled and saved a seat near the window.",
+    "characters": 51,
+    "bytes": 37033,
+    "duration": 3.056327,
+    "sha256": "90bd87b4166e57b91521261efc0838038e7a090e2414ab8862dee726d9ef8193",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "passage-late-arrival-4",
+    "text": "They ordered tea and planned a walk for tomorrow.",
+    "characters": 49,
+    "bytes": 33271,
+    "duration": 2.742857,
+    "sha256": "c58063b374c53fbff70cdd2aec710c81b6be01bc588b6853a21a11f62a079d45",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "known-menu",
+    "text": "menu",
+    "characters": 4,
+    "bytes": 11955,
+    "duration": 0.966531,
+    "sha256": "f4d5c776b63440e1101e87ec9bb51d95de43f0b8f9d1e8e736117f6b2e87a733",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "known-block",
+    "text": "block",
+    "characters": 5,
+    "bytes": 10075,
+    "duration": 0.809796,
+    "sha256": "bad64a630915fd281fad9e419983fbe06e181dd9f315f45adfefa03b81fd9f2c",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "known-cancel",
+    "text": "cancel",
+    "characters": 6,
+    "bytes": 13523,
+    "duration": 1.097143,
+    "sha256": "a169ea4d3ff65f4f07f2e6d21a6d20e8d17b9769c7de98618990953db2c1b80d",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "known-camera",
+    "text": "camera",
+    "characters": 6,
+    "bytes": 11642,
+    "duration": 0.940408,
+    "sha256": "942a0abb3b7b05ad16cda253702e3ced316f10afb36ce5acb5a9916bbb581986",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "known-location",
+    "text": "location",
+    "characters": 8,
+    "bytes": 16030,
+    "duration": 1.306122,
+    "sha256": "5d03c9ebd129d2dc16466eeb8c1f8593234db55589d69a0802f5c8f07ca00085",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  },
+  {
+    "id": "known-internet",
+    "text": "internet",
+    "characters": 8,
+    "bytes": 13209,
+    "duration": 1.07102,
+    "sha256": "01945228abf995014acaed88873cdfbda79b08383dd775b8154ee9cec8d748ed",
+    "generator": "FFmpeg libflite, built-in slt voice, 96 kbps MP3"
+  }
+]
