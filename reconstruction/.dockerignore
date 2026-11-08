@@ -1,0 +1,9 @@
+node_modules
+.next
+.test-data
+private-data/*
+.env*
+evidence
+playwright-report
+test-results
+.git
