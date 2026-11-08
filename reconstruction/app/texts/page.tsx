@@ -1,0 +1,3 @@
+import Link from "next/link";
+import passages from "@/content/passages.json";
+export default function Texts(){return <div className="catalog-page"><div className="page-heading"><span className="kicker">نصوص للاستماع</span><h1>استمع للحكاية، ثم اختبر فهمك.</h1><p>مقاطع قصيرة وأسئلة بعد كل مقطع.</p></div><div className="catalog-grid">{passages.map((p)=><Link className="catalog-card" href={`/passages/${p.slug}`} key={p.slug}><div className="catalog-cover"><img src={p.cover} alt="مشهد المقهى في ليلة ممطرة"/><span>{p.level}</span></div><div className="catalog-card-body"><h2 lang="en" dir="ltr">{p.titleEn}</h2><p>{p.titleAr}</p><small>{p.sections.length} مقاطع · أسئلة صح أو خطأ</small><div>ابدأ الاستماع <b>←</b></div></div></Link>)}</div></div>}
